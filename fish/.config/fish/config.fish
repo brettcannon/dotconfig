@@ -35,4 +35,4 @@ function fish_right_prompt
   set_color normal
 end
 
-source config.fish.local
+source ~/.config/fish/config.fish.local
