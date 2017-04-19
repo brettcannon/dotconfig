@@ -27,7 +27,7 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "search.useIgnoreFilesByDefault": true,
-    "workbench.colorTheme": "Solarized Dark",
+     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vs-seti",
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true
