@@ -34,5 +34,3 @@ function fish_right_prompt
   prompt_pwd
   set_color normal
 end
-
-source ~/.config/fish/config.fish.local
