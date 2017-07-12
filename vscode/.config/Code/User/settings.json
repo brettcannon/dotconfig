@@ -19,12 +19,13 @@
         "**/_build": true,
         "**/venv": true
 	},
+    "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "search.useIgnoreFilesByDefault": true,
     "workbench.colorTheme": "Default Dark+",
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
-    // Extensions
+
     "python.linting.enabled": false
 }
