@@ -1,5 +1,6 @@
 {
     "editor.acceptSuggestionOnEnter": false,
+    "editor.autoIndent": true,
     "editor.folding": true,
     "editor.fontFamily": "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
     "editor.minimap.renderCharacters": false,
