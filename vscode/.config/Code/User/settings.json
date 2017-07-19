@@ -1,5 +1,6 @@
+// 2017-07-19
 {
-    "editor.acceptSuggestionOnEnter": false,
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.autoIndent": true,
     "editor.folding": true,
     "editor.fontFamily": "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
@@ -18,15 +19,18 @@
         "**/*.egg-info": true,
         "**/.coverage": true,
         "**/_build": true,
-        "**/venv": true
+        "**/env": true
 	},
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "git.enableSmartCommit": false,
+    "python.linting.enabled": false,
     "search.useIgnoreFilesByDefault": true,
+    // 64-bit PowerShell: "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe"
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
     "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vs-seti",
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
-
-    "python.linting.enabled": false
+    "workbench.activityBar.visible": true
 }
