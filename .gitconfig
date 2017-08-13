@@ -1,6 +1,5 @@
 [core]
-	excludesfile = XXX
-
+    excludesfile = XXX
 [remote]
     pushdefault = origin
 [push]
