@@ -1,4 +1,6 @@
 // 2017-09-19
+// Using [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync);
+// Gist 86b71a1f9f67df90515f4cd2176ff4b9
 {
     // Platform-specific
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
