@@ -1,15 +1,23 @@
-// 2017-08-11
+// 2017-09-19
 {
     // Platform-specific
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
-
     // General
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
     "editor.fontFamily": "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
     "editor.minimap.renderCharacters": false,
-    "editor.rulers": [70, 80, 100],
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.rulers": [
+        70,
+        80,
+        100
+    ],
     "editor.trimAutoWhitespace": true,
     "files.defaultLanguage": "python",
     "files.exclude": {
@@ -24,7 +32,7 @@
         "**/.coverage": true,
         "**/_build": true,
         "**/env": true
-	},
+    },
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
