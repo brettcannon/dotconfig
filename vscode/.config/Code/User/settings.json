@@ -1,17 +1,16 @@
-// 2017-09-19
-// Using [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync);
-// Gist 86b71a1f9f67df90515f4cd2176ff4b9
+// 2017-09-26
 {
     // Platform-specific
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+
     // General
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
     "editor.fontFamily": "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
     "editor.minimap.renderCharacters": false,
     "editor.quickSuggestions": {
-        "other": false,
+        "other": false,  // Turns out intellisense for Markdown, etc.
         "comments": false,
         "strings": false
     },
@@ -29,17 +28,16 @@
         "**/.vscode": true,
         "**/__pycache__": true,
         "**/.eggs": true,
-        "**/.cache": true,
         "**/*.egg-info": true,
         "**/.coverage": true,
-        "**/_build": true,
-        "**/env": true
+        "**/env": true,
+        "**/venv": true
     },
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": false,
-    "python.linting.enabled": false,
+    "python.linting.enabled": false,  // TODO: remove after October release.
     "search.useIgnoreFilesByDefault": true,
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vs-seti",
