@@ -1,19 +1,9 @@
-// 2017-09-26
+// 2017-10-05
 {
-    // Platform-specific
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
-
-    // General
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
     "editor.fontFamily": "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
     "editor.minimap.renderCharacters": false,
-    "editor.quickSuggestions": {
-        "other": false,  // Turns out intellisense for Markdown, etc.
-        "comments": false,
-        "strings": false
-    },
     "editor.rulers": [
         70,
         80,
@@ -21,11 +11,8 @@
     ],
     "editor.trimAutoWhitespace": true,
     "files.defaultLanguage": "python",
+    "files.eol": "\n",
     "files.exclude": {
-        "**/.git": true,
-        "**.hg": true,
-        "**/.DS_Store": true,
-        "**/.vscode": true,
         "**/__pycache__": true,
         "**/.eggs": true,
         "**/*.egg-info": true,
@@ -33,14 +20,31 @@
         "**/env": true,
         "**/venv": true
     },
-    "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": false,
-    "python.linting.enabled": false,  // TODO: remove after October release.
+    // TODO: remove after October release.
+    "python.linting.enabled": false,
     "search.useIgnoreFilesByDefault": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vs-seti",
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": false,  // Turns out intellisense for Markdown, etc.
+            "comments": false,
+            "strings": false
+        },
+        "editor.rulers": [
+            70
+        ]
+    },
+    "[python]": {
+        "editor.rulers": [
+            80
+        ]
+    }
 }
