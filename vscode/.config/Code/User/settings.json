@@ -2,7 +2,8 @@
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
-    "editor.fontFamily": "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily":
+        "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
     "editor.minimap.renderCharacters": false,
     "editor.rulers": [
         70,
@@ -26,15 +27,17 @@
     // TODO: remove after October release.
     "python.linting.enabled": false,
     "search.useIgnoreFilesByDefault": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    "terminal.integrated.shell.windows":
+        "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    //"terminal.integrated.shell.windows":
+    //  "C:\\WINDOWS\\Sysnative\\bash.exe",
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vs-seti",
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "[markdown]": {
         "editor.quickSuggestions": {
-            "other": false,  // Turns out intellisense for Markdown, etc.
+            "other": false,
             "comments": false,
             "strings": false
         },
