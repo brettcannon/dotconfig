@@ -1,9 +1,8 @@
-// 2017-10-26
+// 2017-11-02
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
-    "editor.fontFamily":
-        "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
     "editor.minimap.renderCharacters": false,
     "editor.rulers": [
         70,
@@ -19,28 +18,23 @@
         "**/*.egg-info": true,
         "**/.coverage": true,
         "**/env": true,
-        "**/.mypy_cache": true
+        "**/venv": true
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": false,
-    "python.disablePromptForFeatures": [
-        "pylint"
-    ],
+    // TODO: remove after October release.
+    "python.linting.enabled": false,
     "search.useIgnoreFilesByDefault": true,
-    // "terminal.integrated.shell.windows":
-    //    "C:\\Windows\\sysnative\\cmd.exe"
-    "terminal.integrated.shell.windows":
-        "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-    //"terminal.integrated.shell.windows":
-    //    "C:\\WINDOWS\\Sysnative\\bash.exe",
-    "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vs-seti",
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "[markdown]": {
         "editor.quickSuggestions": {
-            "other": false,
+            "other": false,  // Turns out intellisense for Markdown, etc.
             "comments": false,
             "strings": false
         },
@@ -53,7 +47,12 @@
             80
         ]
     },
-    "[restructuredtext]": {
+    "[plaintext]": {
+        "editor.quickSuggestions": {
+            "other": false,  // Turns out intellisense for Markdown, etc.
+            "comments": false,
+            "strings": false
+        },
         "editor.rulers": [
             70
         ]
