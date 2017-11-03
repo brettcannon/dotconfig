@@ -1,4 +1,4 @@
-// 2017-11-02
+// 2017-11-03
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
@@ -26,8 +26,10 @@
     // TODO: remove after October release.
     "python.linting.enabled": false,
     "search.useIgnoreFilesByDefault": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     //"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    //terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vs-seti",
     "workbench.statusBar.visible": true,
