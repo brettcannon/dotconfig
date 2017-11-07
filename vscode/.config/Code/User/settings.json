@@ -31,8 +31,8 @@
         "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     //    "C:\\WINDOWS\\Sysnative\\bash.exe",
     //    "C:\\Windows\\sysnative\\cmd.exe",
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.iconTheme": "vs-seti",
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "vscode-icons",
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "[markdown]": {
