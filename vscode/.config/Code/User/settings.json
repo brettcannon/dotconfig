@@ -1,4 +1,4 @@
-// 2017-12-28
+// 2017-01-11
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
@@ -28,7 +28,7 @@
     ],
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
     "terminal.integrated.shell.windows":
-        "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "C:\\Program Files\\PowerShell\\6.0.0\\pwsh.exe",
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Material Theme",
