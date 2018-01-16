@@ -1,4 +1,4 @@
-// 2017-01-11
+// 2017-01-16
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
@@ -23,8 +23,12 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": false,
-    "python.disablePromptForFeatures": [
-        "pylint"
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    // Unnecessary once https://github.com/Microsoft/vscode-python/issues/554 is fixed.
+    "python.linting.pylintArgs": [
+        "--disable=all",
+        "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,unused-wildcard-import,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode"
     ],
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
     "terminal.integrated.shell.windows":
