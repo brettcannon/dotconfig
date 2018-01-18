@@ -1,4 +1,4 @@
-// 2017-01-16
+// 2017-01-18
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
@@ -28,11 +28,13 @@
     // Unnecessary once https://github.com/Microsoft/vscode-python/issues/554 is fixed.
     "python.linting.pylintArgs": [
         "--disable=all",
-        "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,unused-wildcard-import,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode"
+        "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode"
     ],
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    //"terminal.integrated.shell.windows":
+    //    "C:\\Program Files\\PowerShell\\6.0.0\\pwsh.exe",
     "terminal.integrated.shell.windows":
-        "C:\\Program Files\\PowerShell\\6.0.0\\pwsh.exe",
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Material Theme",
