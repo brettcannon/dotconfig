@@ -1,4 +1,4 @@
-// 2017-01-25
+// 2017-01-29
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
@@ -24,10 +24,12 @@
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": false,
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
-    //"terminal.integrated.shell.windows":
-    //    "C:\\Program Files\\PowerShell\\6.0.0\\pwsh.exe",
     "terminal.integrated.shell.windows":
         "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        //"C:\\Program Files\\PowerShell\\6.0.0\\pwsh.exe",
+        //"C:\\Windows\\System32\\cmd.exe",
+        // Maybe pass args to bash to launch fish?
+        //"C:\\Windows\\System32\\bash.exe",
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Solarized Light",
