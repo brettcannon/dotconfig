@@ -1,8 +1,9 @@
-// 2017-03-05
+// 2017-03-06
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
     "editor.fontFamily": "Hack, Consolas, Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnType": true,
     "editor.minimap.renderCharacters": false,
     "editor.rulers": [
         70,
