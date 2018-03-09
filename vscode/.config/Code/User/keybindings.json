@@ -1,0 +1,6 @@
+// 2018-03-09
+[
+    // When opening a terminal, focus on it.
+    { "key": "ctrl+`", "command": "workbench.action.terminal.focus"},
+    { "key": "ctrl+`", "command": "workbench.action.terminal.toggleTerminal", "when": "terminalFocus"}
+]
