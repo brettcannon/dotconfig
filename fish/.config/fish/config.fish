@@ -1,3 +1,5 @@
+# 2018-04-20
+
 #set -g -x fish_greeting ''
 
 set -g -x EDITOR vim
@@ -34,3 +36,23 @@ function fish_right_prompt
   prompt_pwd
   set_color normal
 end
+
+##### LOCAL CHANGES
+
+function add_homebrew_library
+  # (brew --prefix $argv), except inlined because otherwise it's rather slow.
+  set -g -x LDFLAGS "-L/usr/local/opt/$argv/lib $LDFLAGS"
+  set -g -x CPPFLAGS "-I/usr/local/opt/$argv/include $CPPFLAGS"
+end
+
+set -g -x RUST_SRC_PATH "/Users/brettcannon/Repositories/rust/src"
+
+set -g -x LDFLAGS "-L/usr/local/lib -L/usr/lib $LDFLAGS"
+set -g -x CPPFLAGS "-I/usr/local/include -I/usr/include $CPPFLAGS"
+add_homebrew_library sqlite
+add_homebrew_library openssl
+add_homebrew_library readline
+add_homebrew_library zlib
+
+# Place /usr/bin before /usr/local/bin to make sure lldb picks up the system Python.
+set -g -x PATH $PATH ~/.cargo/bin ~/Library/Python/3.6/bin /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
