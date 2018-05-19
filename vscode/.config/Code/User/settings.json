@@ -10,12 +10,12 @@
     "files.defaultLanguage": "python",
     "files.eol": "\n",
     "files.exclude": {
-        "**/.coverage": true
+        "**/.coverage": true,
         "**/.eggs": true,
         "**/.venv": true,
         "**/__pycache__": true,
         "**/*.egg-info": true,
-        
+
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -80,10 +80,14 @@
             80
         ]
     },
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
     "[typescript]": {
         "editor.rulers": []
     },
     "[yaml]": {
         "editor.rulers": []
-    }
+    },
+    "gitlens.historyExplorer.enabled": true
 }
