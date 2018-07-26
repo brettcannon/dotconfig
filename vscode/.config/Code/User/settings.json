@@ -1,10 +1,11 @@
-// 2018-05-18
+// 2018-07-26
 {
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
     // https://sourcefoundry.org/hack/
     "editor.fontFamily": "Hack",
     "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.trimAutoWhitespace": true,
     "files.defaultLanguage": "python",
@@ -15,10 +16,13 @@
         "**/.venv": true,
         "**/__pycache__": true,
         "**/*.egg-info": true,
+        "**/node_modules": true
 
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
     "git.enableSmartCommit": false,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
@@ -28,6 +32,7 @@
     "gitlens.gitExplorer.enabled": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
+    "gitlens.historyExplorer.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.hovers.enabled": false,
     "gitlens.statusBar.enabled": false,
@@ -37,6 +42,7 @@
     //"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6.0.0\\pwsh.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+    "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Solarized Light",
     "workbench.editor.tabSizing": "shrink",
@@ -88,6 +94,5 @@
     },
     "[yaml]": {
         "editor.rulers": []
-    },
-    "gitlens.historyExplorer.enabled": true
+    }
 }
