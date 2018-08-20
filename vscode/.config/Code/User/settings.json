@@ -1,5 +1,6 @@
-// 2018-07-26
+// 2018-08-20
 {
+    "breadcrumbs.enabled": true,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
     // https://sourcefoundry.org/hack/
@@ -38,8 +39,8 @@
     "gitlens.statusBar.enabled": false,
     "npm.enableScriptExplorer": true,
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    //"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6.0.0\\pwsh.exe",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6.0.3\\pwsh.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
     "window.zoomLevel": 0,
