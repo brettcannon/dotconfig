@@ -1,4 +1,4 @@
-// 2018-09-20
+// 2018-09-21
 {
     "breadcrumbs.enabled": true,
     "editor.acceptSuggestionOnEnter": "off",
@@ -14,12 +14,13 @@
     "files.defaultLanguage": "python",
     "files.eol": "\n",
     "files.exclude": {
+        "**/__pycache__": true,
         "**/.coverage": true,
         "**/.eggs": true,
-        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
         "**/*.egg-info": true,
         "**/node_modules": true
-
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
