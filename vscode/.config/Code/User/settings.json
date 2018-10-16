@@ -27,18 +27,6 @@
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": false,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.defaultDateStyle": "absolute",
-    "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm:ss",
-    "gitlens.gitExplorer.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.historyExplorer.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.hovers.enabled": false,
-    "gitlens.statusBar.enabled": false,
     "npm.enableScriptExplorer": true,
     "search.exclude": {
         "**/.venv": true,
