@@ -1,4 +1,4 @@
-// 2018-10-16
+// 2018-10-20
 {
     "breadcrumbs.enabled": true,
     "editor.acceptSuggestionOnEnter": "off",
@@ -28,6 +28,7 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": false,
     "npm.enableScriptExplorer": true,
+    "python.jediEnabled": false,
     "search.exclude": {
         "**/.venv": true,
         "**/node_modules": true,
