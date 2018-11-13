@@ -1,4 +1,4 @@
-// 2018-11-11
+// 2018-11-13
 {
     "breadcrumbs.enabled": true,
     "editor.acceptSuggestionOnEnter": "off",
@@ -45,8 +45,7 @@
     "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
-    "workbench.fontAliasing": "antialiased",
-    "workbench.colorTheme": "Chromodynamics Delek",
+    "workbench.colorTheme": "Monokai Pro",
     "workbench.editor.tabSizing": "shrink",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
@@ -97,5 +96,6 @@
     },
     "[yaml]": {
         "editor.rulers": []
-    }
+    },
+    "workbench.iconTheme": "Monokai Pro Icons"
 }
