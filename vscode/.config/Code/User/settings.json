@@ -1,4 +1,4 @@
-// 2018-11-14
+// 2018-02-19
 {
     "breadcrumbs.enabled": true,
     "editor.acceptSuggestionOnEnter": "off",
@@ -42,7 +42,7 @@
     //"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
     "workbench.editor.tabSizing": "shrink",
@@ -95,5 +95,7 @@
     },
     "[yaml]": {
         "editor.rulers": []
-    }
+    },
+    "python.pythonPath": "C:\\Users\\brcan\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "workbench.colorTheme": "lucy"
 }
