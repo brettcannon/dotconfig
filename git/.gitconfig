@@ -1,0 +1,7 @@
+[core]
+    # Path to global gitignore file.
+    #excludesfile = XXX
+[remote]
+    pushdefault = origin
+[push]
+    default = current
