@@ -1,4 +1,4 @@
-# dotfiles
+# `.config`
 My collection of configuration files oriented around `~/.config`.
 
 ## "Installation"
