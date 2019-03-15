@@ -27,12 +27,6 @@
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": false,
-    "npm.enableScriptExplorer": true,
-    "python.jediEnabled": false,
-    "python.analysis.downloadChannel": "beta",
     "search.exclude": {
         "**/.venv": true,
         "**/node_modules": true,
@@ -47,10 +41,13 @@
     "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
+    // Monoaki Pro requires a license (which is stored locally within VS Code).
+    "workbench.colorTheme": "Monokai Pro", "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.editor.tabSizing": "shrink",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.visible": true,
+    // # Language-specific
     "[elixir]": {
         "editor.formatOnSave": true
     },
@@ -101,6 +98,11 @@
     "[yaml]": {
         "editor.rulers": []
     },
-    "workbench.colorTheme": "Monokai Pro",
-    "workbench.iconTheme": "Monokai Pro Icons"
+    // # Extensions
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": false,
+    "npm.enableScriptExplorer": true,
+    "python.jediEnabled": false,
+    "python.analysis.downloadChannel": "beta"
 }
