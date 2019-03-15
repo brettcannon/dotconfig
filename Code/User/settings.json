@@ -1,4 +1,4 @@
-// 2019-03-01
+// 2019-03-15
 {
     "breadcrumbs.enabled": true,
     "editor.acceptSuggestionOnEnter": "off",
@@ -31,6 +31,8 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": false,
     "npm.enableScriptExplorer": true,
+    "python.jediEnabled": false,
+    "python.analysis.downloadChannel": "beta",
     "search.exclude": {
         "**/.venv": true,
         "**/node_modules": true,
