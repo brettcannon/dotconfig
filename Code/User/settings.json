@@ -1,4 +1,4 @@
-// 2019-07-04
+// 2019-07-11
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -109,5 +109,6 @@
     "git.enableSmartCommit": false,
     "npm.enableScriptExplorer": true,
     "python.jediEnabled": false,
-    "python.analysis.downloadChannel": "beta"
+    "python.analysis.downloadChannel": "beta",
+    "python.insidersChannel": "InsidersDaily"
 }
