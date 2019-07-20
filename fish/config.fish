@@ -22,27 +22,27 @@ set __fish_git_prompt_showuntrackedfiles 'yes'
 #set __fish_git_prompt_char_upstream_behind '-'
 
 function fish_prompt
-  set_color normal
-  if __fish_git_prompt
-    echo -n " "
-  end
-  set_color -o red
-  echo -n "> "
-  set_color normal
+    set_color normal
+    if __fish_git_prompt
+        echo -n " "
+    end
+    set_color -o red
+    echo -n "> "
+    set_color normal
 end
 
 function fish_right_prompt
-  set_color -o green
-  prompt_pwd
-  set_color normal
+    set_color -o green
+    prompt_pwd
+    set_color normal
 end
 
 ##### LOCAL CHANGES
 
 function add_homebrew_library
-  # (brew --prefix $argv), except inlined because otherwise it's rather slow.
-  set -g -x LDFLAGS "-L/usr/local/opt/$argv/lib $LDFLAGS"
-  set -g -x CPPFLAGS "-I/usr/local/opt/$argv/include $CPPFLAGS"
+    # (brew --prefix $argv), except inlined because otherwise it's rather slow.
+    set -g -x LDFLAGS "-L/usr/local/opt/$argv/lib $LDFLAGS"
+    set -g -x CPPFLAGS "-I/usr/local/opt/$argv/include $CPPFLAGS"
 end
 
 set -g -x RUST_SRC_PATH "/Users/brettcannon/Repositories/rust/src"
