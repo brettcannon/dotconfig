@@ -1,6 +1,9 @@
 [core]
     # Path to global gitignore file.
     #excludesfile = XXX
+[user]
+    name = "Brett Cannon"
+    email = "brett@python.org"
 [remote]
     pushdefault = origin
 [push]
