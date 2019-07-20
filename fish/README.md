@@ -2,10 +2,7 @@
 
 [How to switch to fish](https://fishshell.com/docs/current/tutorial.html#tut_switching_to_fish).
 
-Don't forget to install `__fish_git_prompt` and to set the various
-environment variables as necessary (i.e. `$PATH`, `$LDFLAGS`,
-`$CPPFLAGS`).
-
+For machine-specific settings, try to use universal variables. To see what has already been set that way, see `.config/fish/fishd.MACHINE_ID`.
 
 ## Tips
 
