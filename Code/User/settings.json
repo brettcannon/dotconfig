@@ -1,4 +1,4 @@
-// 2019-07-11
+// 2019-07-30
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -52,7 +52,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.visible": true,
     "workbench.tree.renderIndentGuides": "onHover",
-    // # Language-specific
+    // Language-specific
     "[elixir]": {
         "editor.formatOnSave": true
     },
@@ -103,12 +103,12 @@
     "[yaml]": {
         "editor.rulers": []
     },
-    // # Extensions
+    // Extensions
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": false,
     "npm.enableScriptExplorer": true,
     "python.jediEnabled": false,
     "python.analysis.downloadChannel": "beta",
-    "python.insidersChannel": "InsidersDaily"
+    "python.insidersChannel": "daily"
 }
