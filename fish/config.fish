@@ -4,3 +4,4 @@ set -g -x CLICOLOR 1
 set -g -x CC clang
 set -g -x CXX clang++
 set -g -x CFLAGS "-Wno-unused-value -Wno-empty-body -Qunused-arguments -Wno-deprecated-declarations"
+set -g -x PY_PYTHON 3.7
