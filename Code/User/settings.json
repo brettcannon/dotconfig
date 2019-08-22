@@ -111,5 +111,5 @@
     "npm.enableScriptExplorer": true,
     "python.jediEnabled": false,
     "python.analysis.downloadChannel": "beta",
-    "python.insidersChannel": "off"
+    "python.insidersChannel": "daily"
 }
