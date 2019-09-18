@@ -6,7 +6,7 @@ For machine-specific settings, try to use universal variables. To see what has a
 
 ## Tips
 
-To execute a script, use `.`, (e.g. `. venv/bin/activate.fish`).
+To execute a script, [use `source`](https://fishshell.com/docs/current/commands.html#source), (e.g. `source .venv/bin/activate.fish`).
 
 Recursive [wildcards](https://fishshell.com/docs/current/tutorial.html#tut_wildcards) only requires a single instance of `**`, e.g. `/var/**.log`.
 
