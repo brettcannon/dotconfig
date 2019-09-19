@@ -1,4 +1,4 @@
-// 2019-08-22
+// 2019-09-19
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -47,7 +47,8 @@
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
     // Monoaki Pro requires a license (which is stored locally within VS Code).
-    "workbench.colorTheme": "Monokai Pro", "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.editor.tabSizing": "shrink",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
@@ -111,5 +112,6 @@
     "npm.enableScriptExplorer": true,
     "python.jediEnabled": false,
     "python.analysis.downloadChannel": "beta",
+    "python.analysis.cachingLevel": "System",
     "python.insidersChannel": "daily"
 }
