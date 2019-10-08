@@ -2,7 +2,7 @@
 - `^` -- First non-blank character of a line
 - `0` -- First column
 - `$`/`A` -- End of the line
-- `gg` -- Beginning of the file
+- `gg` -- Go to the beginning of the file
 - `G` -- End of the file
 - `/<regex>` -- Search for `<regex>`
   - `n` -- Go to next instance of the search term
@@ -14,7 +14,8 @@
 - `zz` -- Move line to centre of window
 - `z-enter` -- Move line to top of window
 - `F` -- Go forward a window's worth
-- `B -- Go back a window's worth
+- `B` -- Go back a window's worth
+- `V` -- Enter visualization mode
 
 ## Editing
 - `~` -- Toggle capitalization of the current character
@@ -22,3 +23,8 @@
 - `O` -- New line above the current line
 - `D` -- Delete to the end of the line
 - `J` -- Merge with the line below
+- `y` -- Yank/copy
+
+
+# Tips
+- Select all: `ggVG` (go to the beginning of the file, enter visualization mode, go to the end of the file)
