@@ -1,4 +1,4 @@
-// 2019-09-19
+// 2019-10-07
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -20,6 +20,7 @@
     },
     "editor.renderWhitespace": "selection",
     "editor.trimAutoWhitespace": true,
+    "extensions.ignoreRecommendations": true,
     "files.eol": "\n",
     "files.exclude": {
         "**/__pycache__": true,
@@ -113,5 +114,7 @@
     "python.jediEnabled": false,
     "python.analysis.downloadChannel": "beta",
     "python.analysis.cachingLevel": "System",
-    "python.insidersChannel": "daily"
+    "python.insidersChannel": "daily",
+    "vim.hlsearch": true,
+    "vim.incsearch": true
 }
