@@ -1,4 +1,4 @@
-// 2019-10-07
+// 2019-11-01
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -38,6 +38,7 @@
         "**/node_modules": true,
         "**/bower_components": true
     },
+    "terminal.integrated.inheritEnv": false,
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
     //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -112,8 +113,8 @@
     "git.enableSmartCommit": false,
     "npm.enableScriptExplorer": true,
     "python.jediEnabled": false,
-    "python.analysis.downloadChannel": "beta",
-    "python.analysis.cachingLevel": "System",
+    "python.analysis.downloadChannel": "daily",
+    "python.analysis.cachingLevel": "None",
     "python.insidersChannel": "daily",
     "vim.hlsearch": true,
     "vim.incsearch": true
