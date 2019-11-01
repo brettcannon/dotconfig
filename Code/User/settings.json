@@ -33,6 +33,7 @@
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "git.inputValidation": "off",
     "search.exclude": {
         "**/.venv": true,
         "**/node_modules": true,
