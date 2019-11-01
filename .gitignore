@@ -1,4 +1,5 @@
 Code/User/globalStorage/
 Code/User/workspaceStorage/
 configstore/
+fish/completions
 fish/fish_variables
