@@ -3,3 +3,4 @@ Code/User/workspaceStorage/
 configstore/
 fish/completions
 fish/fish_variables
+fish/fishd*
