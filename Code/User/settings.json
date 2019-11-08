@@ -116,7 +116,5 @@
     "python.jediEnabled": false,
     "python.analysis.downloadChannel": "daily",
     "python.analysis.cachingLevel": "None",
-    "python.insidersChannel": "daily",
-    "vim.hlsearch": true,
-    "vim.incsearch": true
+    "python.insidersChannel": "daily"
 }
