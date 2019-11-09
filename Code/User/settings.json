@@ -1,4 +1,4 @@
-// 2019-11-01
+// 2019-11-08
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -15,9 +15,7 @@
     "editor.fontWeight": "600",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
-    "editor.suggest.filteredTypes": {
-        "keyword": true
-    },
+    "editor.suggest.showKeywords": true,
     "editor.renderWhitespace": "selection",
     "editor.trimAutoWhitespace": true,
     "extensions.ignoreRecommendations": true,
