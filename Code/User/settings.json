@@ -31,6 +31,7 @@
     "files.trimTrailingWhitespace": true,
     "git.inputValidation": "off",
     "git.untrackedChanges": "separate",
+    "outline.showModules": false,
     "search.exclude": {
         "**/.venv": true,
         "**/node_modules": true,
