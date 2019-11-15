@@ -7,13 +7,10 @@
     "editor.folding": true,
     // https://github.com/tonsky/FiraCode
     // https://sourcefoundry.org/hack/
-    "editor.fontFamily": "'Fira Code', Hack",
-    "editor.fontLigatures": true,
+    "editor.fontFamily": "FiraCode-Retina, 'Fira Code Retina', 'Fira Code', Hack",
+    "editor.fontLigatures": "'ss02', 'ss03', 'ss04'", // >= & $
     "editor.fontSize": 16,
-    // Fira Code: 400 is Regular and
-    // 600 is Retina **or** Bold,
-    // so only install one of them.
-    "editor.fontWeight": "600",
+    "editor.fontWeight": "400",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.suggest.showKeywords": true,
@@ -33,6 +30,7 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.inputValidation": "off",
+    "git.untrackedChanges": "separate",
     "search.exclude": {
         "**/.venv": true,
         "**/node_modules": true,
