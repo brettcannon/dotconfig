@@ -14,7 +14,10 @@ To select an [autosuggestion](https://fishshell.com/docs/current/tutorial.html#t
 
 [Command substitution](https://fishshell.com/docs/current/tutorial.html#tut_command_substitutions) is done via parentheses.
 
-To run `ssh-agent`, use `eval (ssh-agent -c)`
+To run `ssh-agent`, use `eval (ssh-agent -c)`.
+
+To update completions based on man pages,
+[run `fish_update_completions`](https://fishshell.com/docs/2.2/commands.html#fish_update_completions).
 
 ### Scripting
 
