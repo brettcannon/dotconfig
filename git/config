@@ -1,0 +1,16 @@
+[core]
+    # Path to global gitignore file.
+    #excludesfile = XXX
+[user]
+    name = "Brett Cannon"
+    email = "brett@python.org"
+[remote]
+    pushdefault = fork
+[push]
+    default = current
+#[credential]
+    # Can use Windows Credentional Manager under WSL.
+    #helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
