@@ -1,4 +1,4 @@
-// 2019-12-13
+// 2019-12-20
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -112,10 +112,10 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": false,
     "npm.enableScriptExplorer": true,
-    "python.jediEnabled": false,
-    "python.analysis.downloadChannel": "daily",
-    "python.analysis.cachingLevel": "None",
-    "python.insidersChannel": "off",
+    "python.jediEnabled": true,
+    //"python.analysis.downloadChannel": "daily",
+    //"python.analysis.cachingLevel": "None",
+    "python.insidersChannel": "daily",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
