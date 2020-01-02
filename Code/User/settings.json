@@ -1,4 +1,4 @@
-// 2019-12-20
+// 2020-01-01
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -102,7 +102,11 @@
         "editor.formatOnSave": true
     },
     "[typescript]": {
-        "editor.rulers": []
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            100
+        ]
     },
     "[yaml]": {
         "editor.rulers": []
@@ -116,6 +120,8 @@
     //"python.analysis.downloadChannel": "daily",
     //"python.analysis.cachingLevel": "None",
     "python.insidersChannel": "daily",
+    "sameSettings.URLs.GitHubBlobURL": "https://github.com/brettcannon/dotconfig/blob/master/Code/User/settings.json",
+    // IntelliCode
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
