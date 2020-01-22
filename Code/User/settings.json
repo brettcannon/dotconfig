@@ -120,7 +120,7 @@
     //"python.analysis.downloadChannel": "daily",
     //"python.analysis.cachingLevel": "None",
     "python.insidersChannel": "daily",
-    "sameSettings.URLs.GitHubBlobURL": "https://github.com/brettcannon/dotconfig/blob/master/Code/User/settings.json",
+    "sameSettings.URLs.githubBlobURL": "https://github.com/brettcannon/dotconfig/blob/master/Code/User/settings.json",
     // IntelliCode
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
