@@ -1,16 +1,18 @@
-// 2020-01-10
+// 2020-01-24
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.folding": true,
+    // https://www.jetbrains.com/lp/mono/
     // https://github.com/tonsky/FiraCode
+    // ("editor.fontFamily": "FiraCode-Retina, 'Fira Code Retina', 'Fira Code'",
+    //  "editor.fontWeight": "400")
     // https://sourcefoundry.org/hack/
-    "editor.fontFamily": "FiraCode-Retina, 'Fira Code Retina', 'Fira Code', Hack",
+    "editor.fontFamily": "'JetBrains Mono'",
     "editor.fontLigatures": "'ss02', 'ss03', 'ss04'", // >= & $
     "editor.fontSize": 16,
-    "editor.fontWeight": "400",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.suggest.showKeywords": true,
