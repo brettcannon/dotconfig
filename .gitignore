@@ -4,3 +4,4 @@ configstore/
 fish/completions
 fish/fish_variables
 fish/fishd*
+yarn/
