@@ -1,4 +1,4 @@
-// 2020-01-24
+// 2020-01-31
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -118,12 +118,8 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": false,
     "npm.enableScriptExplorer": true,
-    "python.jediEnabled": true,
-    //"python.analysis.downloadChannel": "daily",
-    //"python.analysis.cachingLevel": "None",
     "python.insidersChannel": "daily",
-    "sameSettings.URLs.githubBlobURL": "https://github.com/brettcannon/dotconfig/blob/master/Code/User/settings.json",
-    // IntelliCode
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "python.jediEnabled": true,
+    "python.linting.enabled": false,
+    "sameSettings.URLs.githubBlobURL": "https://github.com/brettcannon/dotconfig/blob/master/Code/User/settings.json"
 }
