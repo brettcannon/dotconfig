@@ -1,4 +1,4 @@
-// 2020-02-04
+// 2020-02-06
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -19,6 +19,7 @@
     "editor.renderWhitespace": "selection",
     "editor.trimAutoWhitespace": true,
     "extensions.ignoreRecommendations": true,
+    "files.defaultLanguage": "${activeEditorLanguage}",
     "files.eol": "\n",
     "files.exclude": {
         "**/__pycache__": true,
