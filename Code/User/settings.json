@@ -1,4 +1,4 @@
-// 2020-02-06
+// 2020-03-04
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -48,7 +48,7 @@
     //"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": true,
     // Monoaki Pro requires a license (which is stored locally within VS Code).
