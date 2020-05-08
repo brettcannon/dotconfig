@@ -1,4 +1,4 @@
-// 2020-04-28
+// 2020-05-08
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -103,7 +103,7 @@
             "strings": false
         },
         "editor.rulers": [
-            80
+            70, 80
         ]
     },
     "[rust]": {
