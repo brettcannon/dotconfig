@@ -1,4 +1,4 @@
-// 2020-05-08
+// 2020-05-22
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -10,8 +10,9 @@
     //"editor.fontFamily": "'JetBrains Mono'",
     // https://github.com/tonsky/FiraCode ; https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
     "editor.fontFamily": "'Fira Code Retina', FiraCode-Retina, 'Fira Code'",
+    // These only apply to Fira Code; "retina" version is its own weight.
     //"editor.fontWeight": "300", // Light
-    "editor.fontWeight": "400", // Regular
+    //"editor.fontWeight": "400", // Regular
     //"editor.fontWeight": "500", // Medium
     //"editor.fontWeight": "600", // Bold
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04'", // r >= & $ @ \ =~ 0 0123456789
