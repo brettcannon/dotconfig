@@ -1,4 +1,4 @@
-// 2020-05-22
+// 2020-06-03
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -64,6 +64,7 @@
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.visible": true,
+    "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "onHover",
     // Language-specific
     "[elixir]": {
