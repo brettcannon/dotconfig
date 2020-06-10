@@ -1,4 +1,4 @@
-// 2020-06-03
+// 2020-06-10
 {
     "breadcrumbs.enabled": true,
     "debug.console.wordWrap": false,
@@ -61,7 +61,6 @@
     "workbench.colorTheme": "Monokai Pro",
     "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.editor.tabSizing": "shrink",
-    "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.visible": true,
     "workbench.tree.indent": 16,
@@ -105,7 +104,8 @@
             "strings": false
         },
         "editor.rulers": [
-            70, 80
+            70,
+            80
         ]
     },
     "[rust]": {
@@ -129,5 +129,11 @@
     "python.jediEnabled": true,
     "python.languageServer": "Jedi",
     "python.linting.enabled": false,
-    "same-settings.githubBlobURL": "https://github.com/brettcannon/dotconfig/blob/master/Code/User/settings.json"
+    "same-settings.githubBlobURL": "https://github.com/brettcannon/dotconfig/blob/master/Code/User/settings.json",
+    "sync.ignoredSettings": [
+        "-python.experiments.optInto"
+    ],
+    "python.experiments.optInto": [
+        "All"
+    ]
 }
