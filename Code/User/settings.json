@@ -89,7 +89,7 @@
             "strings": false
         },
         "editor.rulers": [
-            80
+            70, 80
         ]
     },
     "[python]": {
@@ -135,5 +135,6 @@
     ],
     "python.experiments.optInto": [
         "All"
-    ]
+    ],
+    "rust-client.engine": "rust-analyzer"
 }
