@@ -126,8 +126,7 @@
     "git.enableSmartCommit": false,
     "npm.enableScriptExplorer": true,
     "python.insidersChannel": "daily",
-    "python.jediEnabled": true,
-    "python.languageServer": "Jedi",
+    "python.languageServer": "Pylance",
     "python.linting.enabled": false,
     "same-settings.githubBlobURL": "https://github.com/brettcannon/dotconfig/blob/master/Code/User/settings.json",
     "sync.ignoredSettings": [
