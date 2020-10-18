@@ -1,8 +1,9 @@
-Code/User/globalStorage/
-Code/User/workspaceStorage/
+Code/User/
+Code/User/
 configstore/
 fish/completions
 fish/fish_variables
 fish/fishd*
 gh/
+rust-analyzer/
 yarn/
