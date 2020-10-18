@@ -16,16 +16,12 @@ My collection of configuration files oriented around `~/.config`.
     <td><a href="https://the.exa.website/">exa</a></td>
   </tr>
   <tr>
-    <td><code>mc</code></td>
-    <td><a href="https://github.com/Canop/broot">broot</a></td>
-  </tr>
-  <tr>
     <td><code>top</code></td>
-    <td><a href="https://htop.dev/">htop</a>, <a href="https://github.com/cjbassi/ytop">ytop</a></td>
+    <td><a href="https://htop.dev/">htop</a></td>
   </tr>
   <tr>
     <td><code>du</code></td>
-    <td><a href="https://github.com/muesli/duf">duf</a>, <a href="https://github.com/bootandy/dust">dust</a></td>
+    <td><a href="https://github.com/bootandy/dust">dust</a></td>
   </tr>
   <tr>
     <td><code>find</code></td>
