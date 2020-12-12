@@ -5,5 +5,6 @@ fish/completions
 fish/fish_variables
 fish/fishd*
 gh/
+htop/
 rust-analyzer/
 yarn/
