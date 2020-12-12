@@ -1,7 +1,34 @@
 # `.config`
 My collection of configuration files oriented around `~/.config`.
 
-## Extra tools w/o configs
-1. [ripgrep](https://github.com/BurntSushi/ripgrep)
-1. [exa](https://the.exa.website/)
-1. [broot](https://github.com/Canop/broot)
+## Alternative UNIX tools
+<table>
+  <tr>
+    <th>Traditional</th>
+    <th>New</th>
+  </tr>
+  <tr>
+    <td><code>grep</code></td>
+    <td><a href="https://github.com/BurntSushi/ripgrep">ripgrep</a></td>
+  </tr>
+  <tr>
+    <td><code>ls</code></td>
+    <td><a href="https://the.exa.website/">exa</a></td>
+  </tr>
+  <tr>
+    <td><code>top</code></td>
+    <td><a href="https://htop.dev/">htop</a></td>
+  </tr>
+  <tr>
+    <td><code>du</code></td>
+    <td><a href="https://github.com/bootandy/dust">dust</a></td>
+  </tr>
+  <tr>
+    <td><code>find</code></td>
+    <td><a href="https://github.com/sharkdp/fd">fd</a></td>
+  </tr>
+  <tr>
+    <td><code>ps</code></td>
+    <td><a href="https://github.com/dalance/procs">procs</a></td>
+  </tr>
+</table>
