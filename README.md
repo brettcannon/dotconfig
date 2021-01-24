@@ -12,14 +12,6 @@ My collection of configuration files oriented around `~/.config`.
     <td><a href="https://github.com/BurntSushi/ripgrep">ripgrep</a></td>
   </tr>
   <tr>
-    <td><code>ls</code></td>
-    <td><a href="https://the.exa.website/">exa</a></td>
-  </tr>
-  <tr>
-    <td><code>top</code></td>
-    <td><a href="https://htop.dev/">htop</a></td>
-  </tr>
-  <tr>
     <td><code>du</code></td>
     <td><a href="https://github.com/bootandy/dust">dust</a></td>
   </tr>
@@ -30,5 +22,9 @@ My collection of configuration files oriented around `~/.config`.
   <tr>
     <td><code>ps</code></td>
     <td><a href="https://github.com/dalance/procs">procs</a></td>
+  </tr>
+  <tr>
+    <td><code>cat</code></td>
+    <td><a href="https://github.com/sharkdp/bat">bat</a></td>
   </tr>
 </table>
