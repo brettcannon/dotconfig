@@ -23,8 +23,4 @@ My collection of configuration files oriented around `~/.config`.
     <td><code>ps</code></td>
     <td><a href="https://github.com/dalance/procs">procs</a></td>
   </tr>
-  <tr>
-    <td><code>cat</code></td>
-    <td><a href="https://github.com/sharkdp/bat">bat</a></td>
-  </tr>
 </table>
