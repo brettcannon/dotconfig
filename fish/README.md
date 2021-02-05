@@ -4,6 +4,8 @@
 
 For machine-specific settings, try to use universal variables. To see what has already been set that way, see `.config/fish/fishd.MACHINE_ID`.
 
+[Completions via Homebrew](https://docs.brew.sh/Shell-Completion) are provided automatically when fish is installed from Homebrew.
+
 ## Tips
 
 To execute a script, [use `source`](https://fishshell.com/docs/current/commands.html#source), (e.g. `source .venv/bin/activate.fish`).
